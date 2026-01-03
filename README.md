@@ -37,7 +37,7 @@ mpv: Required for media playback.
 xrandr: Required for brightness control.
 pulseaudio-utils: Required for volume control.
 
-'''
+
 Clone the RepositoryBashgit clone [https://github.com/yourusername/N.E.X.A.git](https://github.com/yourusername/N.E.X.A.git)
 cd N.E.X.A
 Set up Virtual EnvironmentBashpython3 -m venv venv
