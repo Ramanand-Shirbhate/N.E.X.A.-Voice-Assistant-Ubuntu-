@@ -37,7 +37,7 @@ SOUND_DEACTIVATE = "/usr/share/sounds/freedesktop/stereo/audio-volume-change.oga
 ASSISTANT_NAME = "Neural Executive eXperience Assistant" 
 
 # --- PICOVOICE HOTWORD CONFIGURATION ---
-PICOVOICE_ACCESS_KEY = "SCQMAwKyEaprVYzeIhrUC+oHaqtIAY7QdXEc/ancwhy2Ny0vzXfSSA==" 
+PICOVOICE_ACCESS_KEY = "PICO_VOICE_API" 
 MIC_SOURCE_INDEX = 1  
 HOTWORD_NAME = "NEXA" 
 HOTWORD_MODEL_PATH = os.path.expanduser("/home/ramanand/Desktop/ /NEXA_en_linux_v3_0_0/neck-saa_en_linux_v3_0_0.ppn") 
@@ -345,7 +345,7 @@ DIALOGUE = {
 
 
 # --- NEW: Gemini API Configuration ---
-API_KEY = "AIzaSyA9l6BAvyrgTe_4g98Ia95oUwSpc4TZHA4" # This is left as an empty string; the environment provides it.
+API_KEY = "GEMINI_API" # This is left as an empty string; the environment provides it.
 GEMINI_API_URL = f"https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash-preview-09-2025:generateContent?key={API_KEY}"
 
 
